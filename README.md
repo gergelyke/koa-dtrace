@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/gergelyke/koa-dtrace.png)](https://travis-ci.org/gergelyke/koa-dtrace)
 DTrace middleware for koa
 
+!THIS IS A WORK IN PROGRESS!
+
 ## Installation
 
 ```js
