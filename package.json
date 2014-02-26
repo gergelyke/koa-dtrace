@@ -15,6 +15,15 @@
     "middleware",
     "dtrace"
   ],
+  "optionalDependencies": {
+    "dtrace-provider": "~0.2.8"
+  },
+  "devDependencies": {
+    "koa": "*",
+    "mocha": "*",
+    "should": "*",
+    "hippie": "*"
+  },
   "author": "Gergely Nemeth <mail@nemethgergely.com> (http://twitter.com/nthgergo)",
   "license": "MIT",
   "bugs": {
