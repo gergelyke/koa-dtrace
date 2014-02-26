@@ -1,7 +1,7 @@
 # koa-dtrace
 
+[![Build Status](https://travis-ci.org/gergelyke/koa-dtrace.png)](https://travis-ci.org/gergelyke/koa-dtrace)
 DTrace middleware for koa
-
 
 ## Installation
 
