@@ -70,7 +70,6 @@ function nextId() {
 /**
  * staticProvider
  */
-
 var staticProvider = function () {
   return function *dtrace(next) {
 
@@ -87,13 +86,12 @@ var staticProvider = function () {
       log(this, start, null, err);
       throw err;
     }
-
     provider.fire('routeEnd', function () {
       return [dtraceId, this.status || 404];
     });
 
   }
-}();
+};
 
 /**
  * Expose `staticProvider`.
